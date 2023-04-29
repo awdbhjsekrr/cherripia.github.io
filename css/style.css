@@ -52,17 +52,20 @@ ul {
 .header-title {
     text-align: center;
     font-size: 3.5rem;
-    height: 2rem;
+    height: 1rem;
 }
 
 .header-description {
     text-align: center;
-    font-size: 1.5rem;
-    height: 1rem;
+    font-size: 1.25em;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 3rem;
+    margin-bottom: .75rem;
 }
 
 .header-details {
-    height: 2rem;
+    height: 1rem;
     text-align: center;
     font-size: .75rem;
 }
