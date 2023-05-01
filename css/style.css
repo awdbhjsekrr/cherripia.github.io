@@ -61,7 +61,7 @@ ul {
 
 .header-title {
     text-align: center;
-    font-size: clamp(5rem, 35vw, 120px);
+    font-size: clamp(6rem, 35vw, 120px);
     margin: 0;
     padding: 0;
     font-weight: bold;
@@ -71,7 +71,7 @@ ul {
     text-align: center;
     padding-left: 1rem;
     padding-right: 1rem;
-    font-size: clamp(1.25rem, 5vw, 30px);
+    font-size: clamp(2rem, 5vw, 30px);
     margin: 0;
     padding: 0;
     font-style: italic;
@@ -80,7 +80,7 @@ ul {
 .header-details {
     height: 1rem;
     text-align: center;
-    font-size: clamp(1rem, 3vw, 20px);
+    font-size: clamp(1.5rem, 3vw, 20px);
     margin: 0;
     margin-top: 1rem;
     padding: 0;
@@ -105,3 +105,4 @@ ul {
     line-height: 6vh;
     font-weight: bold;
 }
+
