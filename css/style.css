@@ -97,11 +97,12 @@ ul {
     margin: 0;
     padding: 0;
     justify-content: center;
+    width: 100%;
 }
 
 .socials-link {
     border: 1px solid #fff;
-    border-radius: 100%;
+    border-radius: 10px;
     margin: 0;
     padding: 0;
     margin-right: .5rem;
@@ -119,6 +120,10 @@ ul {
 
 .socials-link:hover {
     background: rgba(255, 255, 255, .3)
+}
+
+.socials-item:hover {
+    padding: .5rem;
 }
 
 .tree-item {
