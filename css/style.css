@@ -33,6 +33,10 @@ ul {
     text-align: center;
 }
 
+.center-text {
+    text-align: center;
+}
+
 .glow {
     font-size: 80px;
     color: #fff;
@@ -148,7 +152,7 @@ ul {
 }
 
 .item-link:hover {
-    font-weight: bold;
+    font-size: 1.05rem;
 }
 
 .tree-item:hover {
