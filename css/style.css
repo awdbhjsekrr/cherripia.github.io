@@ -8,6 +8,7 @@ html {
     background: var(--bg-gradient);
     color: white;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
 
 body {
@@ -63,6 +64,7 @@ ul {
     font-size: clamp(5rem, 35vw, 120px);
     margin: 0;
     padding: 0;
+    font-weight: bold;
 }
 
 .header-description {
@@ -72,6 +74,7 @@ ul {
     font-size: clamp(1.25rem, 5vw, 30px);
     margin: 0;
     padding: 0;
+    font-style: italic;
 }
 
 .header-details {
@@ -81,6 +84,7 @@ ul {
     margin: 0;
     margin-top: 1rem;
     padding: 0;
+    font-weight: 200;
 }
 
 .tree-item {
@@ -99,4 +103,5 @@ ul {
     width: 100%;
     height: 100%;
     line-height: 6vh;
+    font-weight: bold;
 }
