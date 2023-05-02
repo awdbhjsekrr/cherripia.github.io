@@ -13,24 +13,12 @@ html {
     padding: 0;
 }
 
-body {
-    background: var(--bg-normal);
-    background: var(--bg-gradient);
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-}
-
 *, *:before, *:after {
     box-sizing: inherit;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0; 
-    text-align: center;
 }
 
 .glow {
@@ -51,10 +39,6 @@ ul {
     }
 }
 
-.container-header {
-    margin-bottom: 1.25rem;
-}
-
 .tree-container {
     width: 100%;
     max-width: 900px;
@@ -63,6 +47,10 @@ ul {
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+.container-header {
+    margin-bottom: 1.25rem;
 }
 
 .header-title {
@@ -107,7 +95,7 @@ ul {
     padding: 0;
     margin-right: .5rem;
     margin-left: .5rem;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 .socials-item {
@@ -115,15 +103,15 @@ ul {
     height: 3rem;
     margin: 0;
     padding: .6rem;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 .socials-link:hover {
-    background: rgba(255, 255, 255, .3)
+    background: rgba(255, 255, 255, .3);
 }
 
 .socials-item:hover {
-    padding: .5rem;
+    padding: .5rem
 }
 
 .tree-item {
@@ -133,6 +121,7 @@ ul {
     margin: 1rem;
     border-radius: 3rem;
     transition: .1s;
+    text-align: center;
 }
 
 .item-link {
