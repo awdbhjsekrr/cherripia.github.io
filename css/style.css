@@ -4,11 +4,12 @@
 }
 
 html {
-    background: var(--bg-normal);
-    background: var(--bg-gradient);
     color: white;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+}
+
+body {
     margin: 0;
     padding: 0;
 }
@@ -37,6 +38,13 @@ ul {
     to {
       text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
+}
+
+header {
+    height: 100%;
+    width: 100%;
+    background: var(--bg-normal);
+    background: var(--bg-gradient);
 }
 
 .tree-container {
@@ -114,6 +122,11 @@ ul {
     padding: .5rem
 }
 
+.link-tree {
+    padding: 0;
+    margin: 0;
+}
+
 .tree-item {
     display: block;
     height: clamp(2rem, 6vh, 4rem);
@@ -125,7 +138,6 @@ ul {
 }
 
 .item-link {
-    display: block;
     text-decoration: none;
     color: white;
     font-size: 1rem;
