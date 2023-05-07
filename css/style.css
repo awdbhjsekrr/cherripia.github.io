@@ -138,6 +138,7 @@ header {
 }
 
 .item-link {
+    display: block;
     text-decoration: none;
     color: white;
     font-size: 1rem;
