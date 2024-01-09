@@ -40,21 +40,33 @@ ul {
     }
 }
 
-header {
+.background {
+    position: fixed;
     height: 100%;
     width: 100%;
     background: var(--bg-normal);
     background: var(--bg-gradient);
 }
 
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%
+}
+
 .tree-container {
     width: 100%;
     max-width: 900px;
     position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 800px) {
+    .tree-container {
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
 }
 
 .container-header {
